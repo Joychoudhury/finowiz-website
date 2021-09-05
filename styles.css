@@ -1,0 +1,55 @@
+h4 {
+  color: #fec260;
+}
+.navbar-custom {
+  background-color: #2a0944;
+}
+.title {
+  size: 3.5rem;
+  line-height: 1.5;
+  padding: 1rem 5rem 1rem;
+  margin: 0 20%;
+  background-color: #a12568;
+}
+.head-title {
+  margin: 2.5rem 0;
+  color: #fec260;
+}
+.log-button {
+  margin: 5% 3% 5% 0;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card {
+  margin: 15% auto 15%;
+}
+.cards-heading {
+  text-align: center;
+  padding: 5%;
+}
+.video-carousel {
+  background-color: #f0d9ff;
+}
+
+.community-custom {
+  margin: 15% auto 15%;
+  padding: 5% 0;
+}
+.community-title {
+  margin: auto 5%;
+}
+.community-image {
+  margin: 5%;
+}
+
+.community-text {
+  margin: 5%;
+}
+.icons {
+  padding: 10%;
+}
+.footer {
+  text-align: center;
+  margin: 5% 7%;
+}
