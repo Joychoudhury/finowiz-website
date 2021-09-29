@@ -1,3 +1,4 @@
+
 h4 {
   color: #fec260;
 }
@@ -262,3 +263,228 @@ h4 {
           #know {
               margin-bottom: 40px;
           }
+=======
+h4 {
+  color: #fec260;
+}
+.navbar-custom {
+  background-color: #2a0944;
+}
+.title {
+  size: 3.5rem;
+  line-height: 1.5;
+  padding: 1rem 5rem 1rem;
+  margin: 0 20%;
+  background-color: #a12568;
+}
+.head-title {
+  margin: 2.5rem 0;
+  color: #fec260;
+}
+.log-button {
+  margin: 5% 3% 5% 0;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card {
+  margin: 5% 10% 5%;
+}
+.cards-heading {
+  text-align: center;
+  padding: 5%;
+}
+.video-carousel {
+}
+
+/*title iamge part*/
+.row title{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.main-titleimage-for-phone{
+  width: 40%;
+  position: absolute;
+}
+
+
+/*phone no submit*/
+
+#phoneno{
+  background-color: #FEC260;
+=======
+#phoneno {
+  background-color: #fec260;
+  padding: 50px;
+  margin: 20px;
+}
+#sendIt2 {
+  background-color: #3b185f;
+  color: white;
+
+  background-image: linear-gradient(40deg, #bf68e6 20%, #9e48cd 51%, #bf68e6 90% );
+}
+
+/*why finowiz*/
+
+.row{
+=======
+  background-image: linear-gradient(
+    40deg,
+    #bf68e6 20%,
+    #9e48cd 51%,
+    #bf68e6 90%
+  );
+}
+
+/*why finowiz*/
+.row {
+  text-align: center;
+  font-size: 25px;
+}
+.logo {
+  width: 400px;
+  padding: 1.5%;
+}
+/*get our app*/
+#get-our-app{
+  background-color: #A12568;
+      margin: 0% 3% 3% 0;
+}
+.get-our-app-h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 1.5%;
+}
+.get-out-app-h2{
+  padding: 1%;
+  font-size:  3rem;
+  line-height: 1.5;
+}
+.apple-download-button{
+    margin: 5% 3% 5% 0;
+}
+.playstore-download-button{
+
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+
+/*tick*/
+#tick {
+  text-align: center;
+}
+.knowmore {
+  text-align: center;
+  padding: 1.5%;
+}
+
+/*features section*/
+#features {
+  background-color:  #FEC260;
+  position: relative;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 1.5%;
+}
+.h1feature {
+  text-align: center;
+  background-color: #a12568;
+  color: white;
+}
+
+#testimonials {
+  background-color: #a12568;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.community-custom {
+  margin: 15% auto 15%;
+  padding: 5% 0;
+}
+.community-title {
+  margin: auto 5%;
+}
+.community-image {
+  margin: 5%;
+}
+
+.community-text {
+  margin: 5%;
+}
+.icons {
+  padding: 10%;
+}
+.footer {
+  text-align: center;
+  margin: 5% 7%;
+}
+
+@media(max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+=======
+
+/* Carousel   */
+finowiz-videos {
+  position: relative;
+  height: 100%;
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
