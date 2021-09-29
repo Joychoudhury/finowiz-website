@@ -1,3 +1,269 @@
+
+h4 {
+  color: #fec260;
+}
+.navbar-custom {
+  background-color: #2a0944;
+}
+.title {
+  size: 3.5rem;
+  line-height: 1.5;
+  padding: 1rem 5rem 1rem;
+  margin: 0 20%;
+  background-color: #a12568;
+}
+.head-title {
+  margin: 2.5rem 0;
+  color: #fec260;
+}
+.log-button {
+  margin: 5% 3% 5% 0;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card {
+  margin: 15% auto 15%;
+}
+.cards-heading {
+  text-align: center;
+  padding: 5%;
+}
+.video-carousel {
+  background-color: #f0d9ff;
+}
+
+/*title iamge part*/
+.row title{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.main-titleimage-for-phone{
+  width: 40%;
+  position: absolute;
+}
+
+
+/*phone no submit*/
+
+#phoneno{
+  background-color: #FEC260;
+  padding: 50px;
+  margin: 20px;
+}
+#sendIt2{
+  background-color: #3B185F;
+  color: white;
+  background-image: linear-gradient(40deg, #0C7B93 20%, #0C7B93 51%, #0C7B93 90% );
+}
+
+/*why finowiz*/
+
+.row{
+  text-align: center;
+  font-size: 25px;
+}
+.logo{
+  width: 40%;
+  position: left;
+}
+
+
+
+/*get our app*/
+#get-our-app{
+  background-color: black;
+      margin: 0% 3% 3% 0;
+}
+.app-image{
+    width: 60%;
+    position: left;
+}
+.get-our-app-h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  color: #DDDDDD;
+  line-height: 1.5;
+  padding: 1.5%;
+}
+.get-our-app-h2{
+  padding: 1%;
+  color: #DDDDDD;
+  font-size:  2.5rem;
+  line-height: 1.5;
+}
+.apple-download-button{
+    margin: 5% 3% 5% 0;
+}
+.playstore-download-button{
+
+    margin: 5% 3% 5% 0;
+}
+
+/*tick*/
+#tick{
+  text-align: center;
+}
+.knowmore{
+  text-align: center;
+  padding: 1.5%;
+}
+
+/*features section*/
+#features {
+  background-color:  #FEC260;
+  position: relative;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 1.5%;
+}
+.h1feature{
+  text-align: center;
+  background-color: #A12568;
+  color: white;
+}
+
+
+#testimonials {
+  background-color: #A12568;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+}
+
+
+/*community information*/
+.community-custom {
+  margin: 15% auto 15%;
+  padding: 5% 0;
+}
+.community-title {
+  margin: auto 5%;
+}
+.rounded-community-image{
+  width: 40%;
+  position: absolute;
+}
+.community-text {
+  margin: 5%;
+}
+.icons {
+  padding: 10%;
+}
+.footer {
+  text-align: center;
+  margin: 5% 7%;
+}
+
+
+/*founder and co-founder part*/
+#founder-bg {
+    background: linear-gradient(to right, #3B185F, #0A043C);
+}
+.heading-founders {
+    color: #fff;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-top: 245px;
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: justify;
+    color: #5F5982;
+    margin-top: 15px;
+}
+
+.founder-container {
+    font-family: 'Poppins Medium';
+    max-width: 100%;
+    display: grid;
+    grid-column-gap: 60px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.founder-h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+}
+#know{
+  width: 60%;
+}
+.card {
+    position: relative;
+    border-radius: 10px;
+    min-height: 492px;
+}
+
+.founder-img-top {
+    width: 70%;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: drop-shadow(0px 5px 20px rgba(38, 50, 56, 0.2));
+    border-radius: 10px;
+}
+.know-more{
+  width: 100vw;
+  display: none;
+  padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+@media(max-width:1028px) {
+  .title-image  {
+    position: static;
+    transform: rotate(0);
+  }
+  .form-inline{
+    position: static;
+    transform: rotate(0);
+  }
+  @media (max-width: 425px) {
+      .founder-container {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-row-gap: 90px;
+      }
+
+      .founder.container {
+          padding: 0 !important;
+      }
+
+      .para-founders {
+          padding-left: 20px;
+          padding-right: 20px;
+      }
+  }
+      @media (max-width: 475px) {
+          #know {
+              margin-bottom: 40px;
+          }
+=======
 h4 {
   color: #fec260;
 }
@@ -221,3 +487,4 @@ finowiz-videos {
   height: 100%;
   object-fit: cover;
 }
+
