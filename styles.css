@@ -31,6 +31,23 @@ h4 {
 .video-carousel {
 }
 
+/*title iamge part*/
+.row title{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.main-titleimage-for-phone{
+  width: 40%;
+  position: absolute;
+}
+
+
+/*phone no submit*/
+
+#phoneno{
+  background-color: #FEC260;
+=======
 #phoneno {
   background-color: #fec260;
   padding: 50px;
@@ -39,6 +56,14 @@ h4 {
 #sendIt2 {
   background-color: #3b185f;
   color: white;
+
+  background-image: linear-gradient(40deg, #bf68e6 20%, #9e48cd 51%, #bf68e6 90% );
+}
+
+/*why finowiz*/
+
+.row{
+=======
   background-image: linear-gradient(
     40deg,
     #bf68e6 20%,
@@ -56,6 +81,33 @@ h4 {
   width: 400px;
   padding: 1.5%;
 }
+/*get our app*/
+#get-our-app{
+  background-color: #A12568;
+      margin: 0% 3% 3% 0;
+}
+.get-our-app-h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 1.5%;
+}
+.get-out-app-h2{
+  padding: 1%;
+  font-size:  3rem;
+  line-height: 1.5;
+}
+.apple-download-button{
+    margin: 5% 3% 5% 0;
+}
+.playstore-download-button{
+
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
 
 /*tick*/
 #tick {
@@ -68,6 +120,7 @@ h4 {
 
 /*features section*/
 #features {
+  background-color:  #FEC260;
   position: relative;
 }
 .feature-title {
@@ -117,6 +170,13 @@ h4 {
   text-align: center;
   margin: 5% 7%;
 }
+
+@media(max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+=======
 
 /* Carousel   */
 finowiz-videos {
